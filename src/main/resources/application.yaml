@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    username: admin
+    password: admin1234
+    url: jdbc:postgresql://localhost:5432/book_management
+  jpa:
+    #generate-ddl: true
+    #hibernate:
+      #ddl-auto: update
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+
+
